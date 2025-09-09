@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="script.js"></script>
+
+    <style>
+        * {
+            margin: 0px;
+            font-family: sans-serif;
+            font-size: 22px;
+
+        }
+
+
+        html,
+        body {
+            height: 100%;
+            width: 100%;
+        }
+
+        body {
+            background-color: black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        main {
+            height: 80%;
+            width: 100%;
+            background-image: url(pixelart_koi.gif);
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #loginbox {
+            height: 100%;
+            width: 50%;
+            background-color: #0000007d;
+            border-radius: 9px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+        }
+
+        button,
+        input {
+            width: 80%;
+            height: 40px;
+            border: 0px;
+            margin-bottom: 17px;
+            border-radius: 5px;
+            box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+        }
+
+        #kaplau {
+            width: 40%;
+        }
+
+        .fakebutton {
+            height: 53px;
+            width: 80%;
+            background-color: #367b0c;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            margin-bottom: 5px;
+        }
+
+        .block {
+            width: 100%;
+            height: 100%;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <main>
+
+        <div id="loginbox">
+
+
+
+            <div class="block">
+                <p style="color: white;">Lagoa das</p>
+                <h1 style="color: white;">Karpas</h1>
+                <p style="color: white;">2025</p>
+            </div>
+
+
+
+            <div class="block">
+
+                <input type="text" placeholder="Digite o usuario" id="usuario">
+                <input type="password" placeholder="Digite a senha" id="senha">
+ 
+                <button onclick="teste()">Entrar</button>
+
+            </div>
+
+
+
+
+            <div class="block">
+
+                <div class="fakebutton">
+                    <img src="logo.png" style=" height: 50%; padding-right: 10px;">
+                    <p>Entrar com o Google</p>
+                </div>
+
+                <div class="fakebutton" style="background-color: rgb(78, 181, 46);">
+                    <img src="social.png" style=" height: 50%; padding-right: 10px;">
+                    <p>Entrar com o Instagram</p>
+                </div>
+
+            </div>
+
+
+
+
+            <div class="block">
+                <p style="color: white;"> Esqueceu a senha? </p>
+                <p style="color: white;"> Cadastrar-se </p>
+            </div>
+
+
+
+        </div>
+
+        </div>
+
+
+
+    </main>
+
+</body>
+
+</html>
